@@ -1,0 +1,58 @@
+.navbar-nav li {
+	border-bottom: 3px solid transparent;
+}
+.navbar-nav li.active {
+	border-bottom: 3px solid orange;
+	background-color: transparent !important;
+}
+.navbar-nav li:hover {
+	border-bottom: 3px solid orange;
+}
+.navbar-nav li a:hover {
+	color: #777 !important;
+}
+nav.navbar-default {
+	background-color: #222;
+	border: none;
+	margin-bottom: 0px !important;
+}
+header {
+	background-color: #222;
+	padding-bottom: 0px !important;
+}
+header .navbar-nav {
+	background-color: #222;
+}
+footer {
+	background-color: #222;
+	padding: 10px;
+	margin-top: 10px;
+	color: #fff;
+}
+footer a {
+	color: orange;
+}
+footer a:hover {
+	text-decoration: none;
+	color: darkorange;
+}
+section.news p span {
+	color: darkorange;
+	font-weight: bold;
+}
+section.news h3 {
+	color: darkorange;
+	margin-top: 0;
+}
+section.news h2 {
+	margin-top: 0;
+}
+span.highlight, h2 span.highlight {
+	color: darkorange;
+}
+h3 span.highlight {
+	color: #222;
+}
+.center {
+	text-align: center;
+}
